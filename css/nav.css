@@ -1,0 +1,67 @@
+nav {
+    background: white;
+    width: 15%;
+    margin-right: 5%;
+    padding: 1rem;
+    border: solid 0 white;
+    box-shadow: 0px 10px 10px #8d8d8d;
+
+    display: flex;
+    flex-direction: column;
+}
+
+nav h2 {
+    margin-top: 3rem;
+}
+
+nav button {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border: none;
+    background: white;
+    color: #00579e;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+nav button:hover {
+    color: #FC853B;
+}
+
+.users-list,
+.categories-list {
+    list-style: none;
+}
+
+.user {
+    color: #FC853B;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.user-trash-btn {
+    color: rgb(175, 52, 52);
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.user-trash-btn:hover {
+    color: #FC853B;
+}
+
+.categories-list {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.categories-list label {
+    color: #00579e;
+    margin-bottom: 0.5rem;
+}
